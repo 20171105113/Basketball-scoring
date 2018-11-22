@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C1788D621A62ED600D18454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1788D521A62ED600D18454 /* AppDelegate.swift */; };
+		1C1788D821A62ED600D18454 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1788D721A62ED600D18454 /* ViewController.swift */; };
+		1C1788DB21A62ED600D18454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1788D921A62ED600D18454 /* Main.storyboard */; };
+		1C1788DD21A62ED700D18454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C1788DC21A62ED700D18454 /* Assets.xcassets */; };
+		1C1788E021A62ED700D18454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1788DE21A62ED700D18454 /* LaunchScreen.storyboard */; };
+		1C1788EB21A62ED700D18454 /* Basketball_scoring_deviceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1788EA21A62ED700D18454 /* Basketball_scoring_deviceTests.swift */; };
+		1C1788F621A62ED700D18454 /* Basketball_scoring_deviceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1788F521A62ED700D18454 /* Basketball_scoring_deviceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C1788E721A62ED700D18454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C1788CA21A62ED500D18454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C1788D121A62ED600D18454;
+			remoteInfo = "Basketball scoring device";
+		};
+		1C1788F221A62ED700D18454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C1788CA21A62ED500D18454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C1788D121A62ED600D18454;
+			remoteInfo = "Basketball scoring device";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C1788D221A62ED600D18454 /* Basketball scoring device.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basketball scoring device.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C1788D521A62ED600D18454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C1788D721A62ED600D18454 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C1788DA21A62ED600D18454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C1788DC21A62ED700D18454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C1788DF21A62ED700D18454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C1788E121A62ED700D18454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C1788E621A62ED700D18454 /* Basketball scoring deviceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Basketball scoring deviceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C1788EA21A62ED700D18454 /* Basketball_scoring_deviceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basketball_scoring_deviceTests.swift; sourceTree = "<group>"; };
+		1C1788EC21A62ED700D18454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C1788F121A62ED700D18454 /* Basketball scoring deviceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Basketball scoring deviceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C1788F521A62ED700D18454 /* Basketball_scoring_deviceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basketball_scoring_deviceUITests.swift; sourceTree = "<group>"; };
+		1C1788F721A62ED800D18454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C1788CF21A62ED600D18454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C1788E321A62ED700D18454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C1788EE21A62ED700D18454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C1788C921A62ED500D18454 = {
+			isa = PBXGroup;
+			children = (
+				1C1788D421A62ED600D18454 /* Basketball scoring device */,
+				1C1788E921A62ED700D18454 /* Basketball scoring deviceTests */,
+				1C1788F421A62ED700D18454 /* Basketball scoring deviceUITests */,
+				1C1788D321A62ED600D18454 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C1788D321A62ED600D18454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C1788D221A62ED600D18454 /* Basketball scoring device.app */,
+				1C1788E621A62ED700D18454 /* Basketball scoring deviceTests.xctest */,
+				1C1788F121A62ED700D18454 /* Basketball scoring deviceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C1788D421A62ED600D18454 /* Basketball scoring device */ = {
+			isa = PBXGroup;
+			children = (
+				1C1788D521A62ED600D18454 /* AppDelegate.swift */,
+				1C1788D721A62ED600D18454 /* ViewController.swift */,
+				1C1788D921A62ED600D18454 /* Main.storyboard */,
+				1C1788DC21A62ED700D18454 /* Assets.xcassets */,
+				1C1788DE21A62ED700D18454 /* LaunchScreen.storyboard */,
+				1C1788E121A62ED700D18454 /* Info.plist */,
+			);
+			path = "Basketball scoring device";
+			sourceTree = "<group>";
+		};
+		1C1788E921A62ED700D18454 /* Basketball scoring deviceTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C1788EA21A62ED700D18454 /* Basketball_scoring_deviceTests.swift */,
+				1C1788EC21A62ED700D18454 /* Info.plist */,
+			);
+			path = "Basketball scoring deviceTests";
+			sourceTree = "<group>";
+		};
+		1C1788F421A62ED700D18454 /* Basketball scoring deviceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C1788F521A62ED700D18454 /* Basketball_scoring_deviceUITests.swift */,
+				1C1788F721A62ED800D18454 /* Info.plist */,
+			);
+			path = "Basketball scoring deviceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C1788D121A62ED600D18454 /* Basketball scoring device */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C1788FA21A62ED800D18454 /* Build configuration list for PBXNativeTarget "Basketball scoring device" */;
+			buildPhases = (
+				1C1788CE21A62ED600D18454 /* Sources */,
+				1C1788CF21A62ED600D18454 /* Frameworks */,
+				1C1788D021A62ED600D18454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Basketball scoring device";
+			productName = "Basketball scoring device";
+			productReference = 1C1788D221A62ED600D18454 /* Basketball scoring device.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C1788E521A62ED700D18454 /* Basketball scoring deviceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C1788FD21A62ED800D18454 /* Build configuration list for PBXNativeTarget "Basketball scoring deviceTests" */;
+			buildPhases = (
+				1C1788E221A62ED700D18454 /* Sources */,
+				1C1788E321A62ED700D18454 /* Frameworks */,
+				1C1788E421A62ED700D18454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C1788E821A62ED700D18454 /* PBXTargetDependency */,
+			);
+			name = "Basketball scoring deviceTests";
+			productName = "Basketball scoring deviceTests";
+			productReference = 1C1788E621A62ED700D18454 /* Basketball scoring deviceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C1788F021A62ED700D18454 /* Basketball scoring deviceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C17890021A62ED800D18454 /* Build configuration list for PBXNativeTarget "Basketball scoring deviceUITests" */;
+			buildPhases = (
+				1C1788ED21A62ED700D18454 /* Sources */,
+				1C1788EE21A62ED700D18454 /* Frameworks */,
+				1C1788EF21A62ED700D18454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C1788F321A62ED700D18454 /* PBXTargetDependency */,
+			);
+			name = "Basketball scoring deviceUITests";
+			productName = "Basketball scoring deviceUITests";
+			productReference = 1C1788F121A62ED700D18454 /* Basketball scoring deviceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C1788CA21A62ED500D18454 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = 20171105113;
+				TargetAttributes = {
+					1C1788D121A62ED600D18454 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1C1788E521A62ED700D18454 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1C1788D121A62ED600D18454;
+					};
+					1C1788F021A62ED700D18454 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1C1788D121A62ED600D18454;
+					};
+				};
+			};
+			buildConfigurationList = 1C1788CD21A62ED500D18454 /* Build configuration list for PBXProject "Basketball scoring device" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C1788C921A62ED500D18454;
+			productRefGroup = 1C1788D321A62ED600D18454 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C1788D121A62ED600D18454 /* Basketball scoring device */,
+				1C1788E521A62ED700D18454 /* Basketball scoring deviceTests */,
+				1C1788F021A62ED700D18454 /* Basketball scoring deviceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C1788D021A62ED600D18454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1788E021A62ED700D18454 /* LaunchScreen.storyboard in Resources */,
+				1C1788DD21A62ED700D18454 /* Assets.xcassets in Resources */,
+				1C1788DB21A62ED600D18454 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C1788E421A62ED700D18454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C1788EF21A62ED700D18454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C1788CE21A62ED600D18454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1788D821A62ED600D18454 /* ViewController.swift in Sources */,
+				1C1788D621A62ED600D18454 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C1788E221A62ED700D18454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1788EB21A62ED700D18454 /* Basketball_scoring_deviceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C1788ED21A62ED700D18454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1788F621A62ED700D18454 /* Basketball_scoring_deviceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C1788E821A62ED700D18454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C1788D121A62ED600D18454 /* Basketball scoring device */;
+			targetProxy = 1C1788E721A62ED700D18454 /* PBXContainerItemProxy */;
+		};
+		1C1788F321A62ED700D18454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C1788D121A62ED600D18454 /* Basketball scoring device */;
+			targetProxy = 1C1788F221A62ED700D18454 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C1788D921A62ED600D18454 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C1788DA21A62ED600D18454 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C1788DE21A62ED700D18454 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C1788DF21A62ED700D18454 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C1788F821A62ED800D18454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C1788F921A62ED800D18454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C1788FB21A62ED800D18454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Q4UYJK54S;
+				INFOPLIST_FILE = "Basketball scoring device/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "first1.Basketball-scoring-device";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C1788FC21A62ED800D18454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Q4UYJK54S;
+				INFOPLIST_FILE = "Basketball scoring device/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "first1.Basketball-scoring-device";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1C1788FE21A62ED800D18454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Q4UYJK54S;
+				INFOPLIST_FILE = "Basketball scoring deviceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "first1.Basketball-scoring-deviceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Basketball scoring device.app/Basketball scoring device";
+			};
+			name = Debug;
+		};
+		1C1788FF21A62ED800D18454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Q4UYJK54S;
+				INFOPLIST_FILE = "Basketball scoring deviceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "first1.Basketball-scoring-deviceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Basketball scoring device.app/Basketball scoring device";
+			};
+			name = Release;
+		};
+		1C17890121A62ED800D18454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Q4UYJK54S;
+				INFOPLIST_FILE = "Basketball scoring deviceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "first1.Basketball-scoring-deviceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Basketball scoring device";
+			};
+			name = Debug;
+		};
+		1C17890221A62ED800D18454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Q4UYJK54S;
+				INFOPLIST_FILE = "Basketball scoring deviceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "first1.Basketball-scoring-deviceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Basketball scoring device";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C1788CD21A62ED500D18454 /* Build configuration list for PBXProject "Basketball scoring device" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C1788F821A62ED800D18454 /* Debug */,
+				1C1788F921A62ED800D18454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C1788FA21A62ED800D18454 /* Build configuration list for PBXNativeTarget "Basketball scoring device" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C1788FB21A62ED800D18454 /* Debug */,
+				1C1788FC21A62ED800D18454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C1788FD21A62ED800D18454 /* Build configuration list for PBXNativeTarget "Basketball scoring deviceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C1788FE21A62ED800D18454 /* Debug */,
+				1C1788FF21A62ED800D18454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C17890021A62ED800D18454 /* Build configuration list for PBXNativeTarget "Basketball scoring deviceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C17890121A62ED800D18454 /* Debug */,
+				1C17890221A62ED800D18454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C1788CA21A62ED500D18454 /* Project object */;
+}

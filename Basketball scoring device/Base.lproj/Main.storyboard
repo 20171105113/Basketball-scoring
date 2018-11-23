@@ -18,15 +18,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OTs-TJ-iBI">
-                                <rect key="frame" x="300" y="20" width="66" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="OTs-TJ-iBI">
+                                <rect key="frame" x="410" y="20" width="58" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ya-CD-1C4">
-                                <rect key="frame" x="244" y="68" width="31" height="30"/>
+                                <rect key="frame" x="283" y="68" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="开始"/>
                                 <connections>
@@ -34,7 +34,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TUa-gt-ntv">
-                                <rect key="frame" x="389" y="68" width="31" height="30"/>
+                                <rect key="frame" x="428" y="68" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="停止"/>
                                 <connections>
@@ -42,40 +42,87 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vWq-g2-oei">
-                                <rect key="frame" x="64" y="110" width="97" height="30"/>
+                                <rect key="frame" x="103" y="110" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rDa-uc-r3A">
-                                <rect key="frame" x="509" y="110" width="97" height="30"/>
+                                <rect key="frame" x="548" y="110" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tow-lI-GBc">
-                                <rect key="frame" x="64" y="246" width="46" height="30"/>
+                                <rect key="frame" x="111" y="246" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="+1"/>
                                 <connections>
                                     <action selector="Homebonuspoints:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w7W-5o-GnM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rau-Bb-hA3">
-                                <rect key="frame" x="560" y="246" width="46" height="30"/>
+                                <rect key="frame" x="607" y="246" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="+1"/>
                                 <connections>
                                     <action selector="Awaybonuspoints:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7CP-wC-IXq"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="333-5b-qvB">
-                                <rect key="frame" x="64" y="109" width="97" height="30"/>
+                                <rect key="frame" x="103" y="109" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TNf-an-PZE">
+                                <rect key="frame" x="111" y="306" width="30" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="+2"/>
+                                <connections>
+                                    <action selector="Homebonus2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kt2-P0-rqj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXW-Hw-yeo">
+                                <rect key="frame" x="111" y="364" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="+3"/>
+                                <connections>
+                                    <action selector="Homebonus3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hXo-S0-Pgj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="myN-94-0Xw">
+                                <rect key="frame" x="607" y="309" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="+2"/>
+                                <connections>
+                                    <action selector="Awaybonus2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kDp-ya-3XO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lW4-rf-bxB">
+                                <rect key="frame" x="607" y="364" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="+3"/>
+                                <connections>
+                                    <action selector="Awaybonus3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BKP-Ae-pQM"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="比赛时间" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0YK-EK-P23">
+                                <rect key="frame" x="226" y="25" width="70" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1122567835" green="0.70426558890000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="2Dh-NZ-0ja">
+                                <rect key="frame" x="324" y="19" width="56" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
@@ -86,11 +133,12 @@
                         <outlet property="Awaypoints" destination="rDa-uc-r3A" id="8QQ-0e-G85"/>
                         <outlet property="Homepoints" destination="333-5b-qvB" id="HhZ-KQ-PJK"/>
                         <outlet property="Timedisplay" destination="OTs-TJ-iBI" id="znt-WT-jbO"/>
+                        <outlet property="Timedisplay2" destination="2Dh-NZ-0ja" id="ze9-pq-zXb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="128.18590704647679" y="132"/>
+            <point key="canvasLocation" x="127.98913043478262" y="131.8840579710145"/>
         </scene>
     </scenes>
 </document>

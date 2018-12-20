@@ -14,6 +14,7 @@
 		1C1788E021A62ED700D18454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1788DE21A62ED700D18454 /* LaunchScreen.storyboard */; };
 		1C1788EB21A62ED700D18454 /* Basketball_scoring_deviceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1788EA21A62ED700D18454 /* Basketball_scoring_deviceTests.swift */; };
 		1C1788F621A62ED700D18454 /* Basketball_scoring_deviceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1788F521A62ED700D18454 /* Basketball_scoring_deviceUITests.swift */; };
+		1C27FCFF21AF716200491375 /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C27FCFE21AF716200491375 /* First.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1C1788F121A62ED700D18454 /* Basketball scoring deviceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Basketball scoring deviceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C1788F521A62ED700D18454 /* Basketball_scoring_deviceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basketball_scoring_deviceUITests.swift; sourceTree = "<group>"; };
 		1C1788F721A62ED800D18454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C27FCFE21AF716200491375 /* First.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = First.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				1C1788DC21A62ED700D18454 /* Assets.xcassets */,
 				1C1788DE21A62ED700D18454 /* LaunchScreen.storyboard */,
 				1C1788E121A62ED700D18454 /* Info.plist */,
+				1C27FCFE21AF716200491375 /* First.storyboard */,
 			);
 			path = "Basketball scoring device";
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C1788E021A62ED700D18454 /* LaunchScreen.storyboard in Resources */,
+				1C27FCFF21AF716200491375 /* First.storyboard in Resources */,
 				1C1788DD21A62ED700D18454 /* Assets.xcassets in Resources */,
 				1C1788DB21A62ED600D18454 /* Main.storyboard in Resources */,
 			);

@@ -11,9 +11,9 @@ import UIKit
 class ViewController: UIViewController {
     
     var leftTime:Int = 60
-    var leftTime2:Int = 0
+    var leftTime2:Int = 3
     var timer :Timer!
-    var timer2 :Timer!
+
     var homepoints:Int = 0
     var awaypoints:Int = 0
     var temp:String = "0"
@@ -36,20 +36,18 @@ class ViewController: UIViewController {
     @IBAction func Startone(_ sender: Any) {
         temp = Timedisplay.text!
         leftTime = Int(temp)!
+        temp2 = Timedisplay2.text!
+        leftTime2  = Int(temp2)!
         Timedisplay.isEnabled =  false
         timer = Timer.scheduledTimer(timeInterval: TimeInterval(1), target: self, selector: #selector(tickDown), userInfo: nil, repeats: true)
         
-        temp2 = Timedisplay2.text!
-        leftTime2 = Int(temp2)!
-        Timedisplay2.isEnabled = false
-        timer2 = Timer.scheduledTimer(timeInterval: TimeInterval(60), target: self, selector: #selector(tickDown2), userInfo: nil, repeats: true)
-        
+
         
     }
     //停止计时
     @IBAction func Finishone(_ sender: Any) {
         timer.invalidate()
-        timer2.invalidate()
+
     }
     
     @IBAction func Homebonuspoints(_ sender: Any) {
@@ -79,17 +77,18 @@ class ViewController: UIViewController {
     }
     @objc func tickDown() {
         leftTime -= 1
-        Timedisplay.text = "\(leftTime)"
-        if leftTime <= 0{
-             leftTime = 60
-        }
-        if leftTime2 == -1{
-            timer.invalidate()
-            Timedisplay.text = ""
-            Timedisplay2.text = ""
-        }
-
         
+        if leftTime == -1{
+             leftTime = 59
+            leftTime2 -= 1
+            if leftTime2 == -1{
+                 timer.invalidate()
+                leftTime2 = 0
+                leftTime  = 0
+            }
+        }
+        Timedisplay.text = "\(leftTime)"
+        Timedisplay2.text = "\(leftTime2)"
 }
     @objc func tickDown2() {
             leftTime2 -= 1
@@ -97,9 +96,9 @@ class ViewController: UIViewController {
         
 
             print(leftTime2)
-            Timedisplay2.text = "\(leftTime2)"
+        
             if leftTime2 <= -1{
-                timer2.invalidate()
+  
                 
             }
 }
